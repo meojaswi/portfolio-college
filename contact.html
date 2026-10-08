@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact | Kumar Ojaswi</title>
+  </head>
+  <body>
+    <header class="nav">
+      <a class="brand" href="index.html">Kumar Ojaswi</a>
+      <nav aria-label="Main">
+        <a href="index.html">Home</a><a href="resume.html">Resume</a
+        ><a href="biodata.html">Bio-data</a><a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <div class="page-head">
+        <h1>Contact</h1>
+        <p>
+          Have an idea, opportunity or just want to say hello? My inbox is open.
+        </p>
+      </div>
+      <section class="sec">
+        <h2>Find me online</h2>
+        <div>
+          <a class="contact-card" href="mailto:rvit24bcs110.rvitm@rvei.edu.in"
+            ><small>Email</small
+            ><strong>rvit24bcs110.rvitm@rvei.edu.in</strong></a
+          >
+          <a
+            class="contact-card"
+            href="https://github.com/meojaswi"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><small>GitHub</small><strong>github.com/meojaswi</strong></a
+          >
+          <a
+            class="contact-card"
+            href="https://www.linkedin.com/in/kumar-ojaswi"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><small>LinkedIn</small
+            ><strong>linkedin.com/in/kumar-ojaswi</strong></a
+          >
+        </div>
+      </section>
+      <section class="sec">
+        <h2>Send a message</h2>
+        <form id="contact-form" novalidate>
+          <label for="name">Name</label
+          ><input id="name" name="name" autocomplete="name" required />
+          <div class="err"></div>
+          <label for="email">Email</label
+          ><input
+            id="email"
+            name="email"
+            type="email"
+            autocomplete="email"
+            required
+          />
+          <div class="err"></div>
+          <label for="msg">Message</label
+          ><textarea id="msg" name="message" rows="5" required></textarea>
+          <div class="err"></div>
+          <p><button class="primary" type="submit">Send message</button></p>
+          <p id="form-status" role="status"></p>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <span>&copy; 2026 Kumar Ojaswi</span
+      ><span>Built with HTML, CSS and JavaScript</span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

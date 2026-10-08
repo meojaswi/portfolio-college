@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Home | Kumar Ojaswi</title>
+  </head>
+  <body>
+    <header class="nav">
+      <a class="brand" href="index.html">Kumar Ojaswi</a>
+      <nav aria-label="Main">
+        <a href="index.html">Home</a><a href="resume.html">Resume</a
+        ><a href="biodata.html">Bio-data</a><a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div>
+          <h1>Turning ideas into useful software.</h1>
+          <p>
+            I’m <strong>Kumar Ojaswi</strong>, a developer from Bengaluru
+            building n-tier web applications, AI-powered tools and practical
+            products with Python, React and modern backend technologies.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="resume.html">View my resume</a
+            ><a class="button" href="contact.html">Get in touch</a>
+          </div>
+        </div>
+        <div class="term" data-terminal aria-label="Terminal introduction">
+          <div class="term-bar">ojaswi@bengaluru</div>
+          <div class="term-body">
+            <div class="line">
+              <span class="prompt">$</span> <span class="typed">whoami</span>
+            </div>
+            <div class="line out">Kumar Ojaswi, CS undergraduate</div>
+            <div class="line">
+              <span class="prompt">$</span> <span class="typed">cat stack</span>
+            </div>
+            <div class="line out">Python React FastAPI Node.js LangChain</div>
+            <div class="line">
+              <span class="prompt">$</span>
+              <span class="typed">ls projects</span>
+            </div>
+            <div class="line out">safe75 digital-twin air-quality-monitor</div>
+            <div class="line">
+              <span class="prompt">$</span> <span class="cursor"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec">
+        <h2>Selected work</h2>
+        <div>
+          <div class="work">
+            <h3>Safe75 attendance tracker</h3>
+            <div>
+              <p>
+                Tracks subject-wise attendance and warns when it drops below
+                75%.
+              </p>
+              <div class="tags">
+                <span>Node.js</span><span>Express</span><span>MongoDB</span>
+              </div>
+            </div>
+          </div>
+          <div class="work">
+            <h3>Digital Twin</h3>
+            <div>
+              <p>
+                Answers with context using retrieval-augmented generation, built
+                at the Capabl India Hackathon.
+              </p>
+              <div class="tags">
+                <span>Python</span><span>LangChain</span><span>RAG</span>
+              </div>
+            </div>
+          </div>
+          <div class="work">
+            <h3>Air Quality Monitoring System</h3>
+            <div>
+              <p>
+                Reads air pollution with an MQ135 sensor, shows it on an LCD and
+                sends it over Wi-Fi.
+              </p>
+              <div class="tags">
+                <span>Arduino</span><span>MQ135</span><span>ESP8266</span>
+              </div>
+            </div>
+          </div>
+          <a class="button" href="resume.html#projects"
+            >See all project details</a
+          >
+        </div>
+      </section>
+      <section class="sec">
+        <h2>Let’s build something meaningful together</h2>
+        <div><a class="button primary" href="contact.html">Contact me</a></div>
+      </section>
+    </main>
+    <footer>
+      <span>&copy; 2026 Kumar Ojaswi</span
+      ><span>Built with HTML, CSS and JavaScript</span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
